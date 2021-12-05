@@ -93,6 +93,11 @@ Python 3.9.5
 ~$ flatpak install firefox
 ~$ flatpak run org.mozilla.firefox
 ```
+- Krita
+``` Bash
+~$ flatpak --user install flathub org.kde.krita
+~$ flatpak --user remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
