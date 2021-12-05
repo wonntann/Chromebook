@@ -69,11 +69,6 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 - Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
 
 ### Verify Installation
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>es
-
-### Chromebook
 - Verify Python Installation
 ``` Bash
 ~$ python--version
