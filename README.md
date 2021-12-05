@@ -56,12 +56,12 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 
 
 ## Getting Started
-
+- Open Chromebook
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Prerequisite
-
+- Enable Linux
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -76,6 +76,14 @@ Python 3.9.5
 ```
 ``` Bash
 ~$ sudo apt install python
+```
+
+### Flatpak 
+- [Instructions](https://flatpak.org/setup/Chrome%20OS/)
+
+``` Bash
+ ~$ sudo apt install flatpak
+ ~$ flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
