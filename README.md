@@ -22,6 +22,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#programs">Programs</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -61,7 +62,7 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 
 
 ## Prerequisite
-- Enable Linux
+- [Enable Linux](https://support.google.com/chromebook/answer/9145439)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -84,6 +85,13 @@ Python 3.9.5
 ``` Bash
  ~$ sudo apt install flatpak
  ~$ flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+### Programs 
+- [Firefox](https://support.mozilla.org/en-US/kb/run-firefox-chromeos)
+``` Bash
+~$ flatpak install firefox
+~$ flatpak run org.mozilla.firefox
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
