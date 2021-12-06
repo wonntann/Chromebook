@@ -58,6 +58,8 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 
 ## Getting Started
 - Open Chromebook
+- Enable Linux
+- Install needed packages
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -68,6 +70,8 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 
 ## Installation
 - Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
+- Install [nodejs](curl -sl https://deb.nodesource.com/setup_10.x | sudo -E bash - sudo apt-get instll -y nodejs)
+
 
 ### Verify Installation
 - Verify Python Installation
