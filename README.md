@@ -29,14 +29,13 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#resources">Resources</a></li>
+    <li><a href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
   </ol>
 </details>
 
 
 <!--  ABOUT PROJECT  -->
 ## About The Project
-[![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
-
 This repo will contain Chromebook notes that you can fork and work with. I will try to add more notes throughout the month. If you find any errors or would like to contribute, please look at the Contributing.md.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,5 +138,19 @@ Project Link: [https://github.com/wonntann/gitHub](https://github.com/wonntann/g
 
 ## Resources
 - [Learn Python Reddit](https://www.reddit.com/r/learnpython/)
+- [Keyboard Shortcuts](https://support.google.com/chromebook/answer/183101?hl=en)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Keyboard Shortcuts
+- Page up/down                              Alt + Up/Down arrow
+- Top/Bottom of page                        Ctrl + Alt + Up/Down arrow
+- Stop the loading of your current page     Esc
+- View page source                          Ctrl + u
+- Show or hide the Developer Tools panel    Shift + Ctrl + i
+- Turn Caps Lock on or off                  Search + Alt (or) Launcher  + Alt
+- Move to beginning/end of the line         Search + Left/Right arrow or Launcher + L/R arrow 
+- Delete previous word                      Ctrl + Backspace
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
