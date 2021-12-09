@@ -60,7 +60,7 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Prerequisite
+## Prerequisites
 - [Enable Linux](https://support.google.com/chromebook/answer/9145439)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
