@@ -143,7 +143,7 @@ Python 3.9.5
 
 - [PyQt](https://riverbankcomputing.com/)
 ``` bash
-~$ pip3 install pyqt5
+~$ sudo apt-get install python3-pyqt5
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
