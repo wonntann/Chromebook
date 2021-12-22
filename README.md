@@ -10,7 +10,7 @@
 
 <!--  PROJECT INTRO  -->
 <br />
-<div align="center">Notes on working on a Chromebook</div>
+<div align="center">Notes on working on a Chromebook, install crouton/dual boot xfce or  work with enable Linux and work within Chromebook boot</div>
 
 
 <!--  TABLE OF CONTENTS  -->
@@ -20,8 +20,9 @@
     <li><a href="#getting-started">Getting Started</a></li>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#linux-installation-with-chroot">Linux Installation With chroot</a></li>
         <li><a href="#programs">Programs</a></li>
+        <li><a href="#verify-python-installation">Verify Python Installation</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -65,12 +66,39 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Installation
-- Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
-- Install [nodejs](curl -sl https://deb.nodesource.com/setup_10.x | sudo -E bash - sudo apt-get instll -y nodejs)
+## Linux Installation with chroot
+- Boot Chromebook and enter Developer Mode by pressing **Esc + Refresh + Power** buttons
+- In recovery mode, press **Ctrl + d** and hit **Enter** on "Turn OS Verification Off" prompt
+  - You will need to press **Ctrl + d** everytime you reboot
+- Press **Ctrl + Alt + t** to open Shell (If not open, run Chrome and press **Ctrl + Alt + t** 
+- Download [Crouton](https://andauth.co/EI1nA6(
+- Type **Shell**
+- Type  
+    ``` bash 
+    ~$ sudo install -Dt /usr/local/bin -m 755 ~/Downloads/crouton
+    ```
+    and confirm with the Enter key.
+- Run installer
+  ``` bash
+  ~$ sudo crouton -t xfce
+  ```
+- ...Sometime later...run  Xfce session
+  ``` bash
+  ~$ sudo enter-chroot startxfce4
+  ```
+
+#### Dual boot Linux with chroot
+- Press **Ctrl + d** at OS Verification screen
+- Press **Ctrl + Alt + t** to open crosh and type:
+  ``` bash
+  ~$ sudo enter-chroot startxfce4
+  ```
+- Cycle through Chromium OS and your graphical chroots by typing **Ctrl + Alt + Shift + Back** or **Ctrl + Alt + Shift + Forward** 
+
+***See GitHub repo at [crouton](https://github.com/dnschneid/crouton)
 
 
-### Verify Installation
+### Verify Python Installation
 - Verify Python Installation
 ``` Bash
 ~$ python--version
@@ -89,17 +117,18 @@ Python 3.9.5
 ```
 
 ### Programs 
-- [Firefox](https://support.mozilla.org/en-US/kb/run-firefox-chromeos)
+#### Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
+#### Install [nodejs](curl -sl https://deb.nodesource.com/setup_10.x | sudo -E bash - sudo apt-get instll -y nodejs)
+#### [Firefox](https://support.mozilla.org/en-US/kb/run-firefox-chromeos)
 ``` Bash
 ~$ flatpak install firefox
 ~$ flatpak run org.mozilla.firefox
 ```
-- Krita
+#### Krita
 ``` Bash
 ~$ flatpak --user install flathub org.kde.krita
 ~$ flatpak --user remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
