@@ -129,6 +129,23 @@ Python 3.9.5
 ~$ flatpak --user install flathub org.kde.krita
 ~$ flatpak --user remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
 ```
+
+#### Pip
+- Install pip on the system
+``` bash
+~$ sudo apt install python3-pip
+```
+##### Pip Packages
+- [Tkinter](https://tkdocs.com/tutorial/install.html)
+``` bash
+~$ sudo apt-get install python3-tk 
+```
+
+- [PyQt](https://riverbankcomputing.com/)
+``` bash
+~$ pip install pyqt5
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
