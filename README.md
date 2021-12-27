@@ -148,6 +148,26 @@ Python 3.9.5
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Resources
+- [Learn Python Reddit](https://www.reddit.com/r/learnpython/)
+- [Keyboard Shortcuts](https://support.google.com/chromebook/answer/183101?hl=en)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Keyboard Shortcuts
+- Page up/down                              Alt + Up/Down arrow
+- Top/Bottom of page                        Ctrl + Alt + Up/Down arrow
+- Stop the loading of your current page     Esc
+- View page source                          Ctrl + u
+- Show or hide the Developer Tools panel    Shift + Ctrl + i
+- Turn Caps Lock on or off                  Search + Alt (or) Launcher  + Alt
+- Move to beginning/end of the line         Search + Left/Right arrow or Launcher + L/R arrow 
+- Delete previous word                      Ctrl + Backspace
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 ## Contributing
 Thanks for checking out this page, since the more positive edits and critics of this repo will help this project benefit more individuals.
 
@@ -180,21 +200,3 @@ Project Link: [https://github.com/wonntann/gitHub](https://github.com/wonntann/g
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Resources
-- [Learn Python Reddit](https://www.reddit.com/r/learnpython/)
-- [Keyboard Shortcuts](https://support.google.com/chromebook/answer/183101?hl=en)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Keyboard Shortcuts
-- Page up/down                              Alt + Up/Down arrow
-- Top/Bottom of page                        Ctrl + Alt + Up/Down arrow
-- Stop the loading of your current page     Esc
-- View page source                          Ctrl + u
-- Show or hide the Developer Tools panel    Shift + Ctrl + i
-- Turn Caps Lock on or off                  Search + Alt (or) Launcher  + Alt
-- Move to beginning/end of the line         Search + Left/Right arrow or Launcher + L/R arrow 
-- Delete previous word                      Ctrl + Backspace
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
