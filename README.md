@@ -98,7 +98,7 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 ***See GitHub repo at [crouton](https://github.com/dnschneid/crouton)
 
 
-### Verify Python Installation
+## Verify Python Installation
 - Verify Python Installation
 ``` Bash
 ~$ python--version
@@ -108,7 +108,12 @@ Python 3.9.5
 ~$ sudo apt install python
 ```
 
-### Flatpak 
+### Update pip
+``` bash
+python3 -m pip install --user --upgrade pip
+```
+
+## Flatpak 
 - [Instructions](https://flatpak.org/setup/Chrome%20OS/)
 
 ``` Bash
