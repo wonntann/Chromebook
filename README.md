@@ -21,7 +21,6 @@
 <!--  ABOUT PROJECT  -->
 ## About The Project
 This repo will contain Chromebook notes that you can fork and work with. I will try to add more notes throughout the month. If you find any errors or would like to contribute, please look at the Contributing.md.
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
 ``` Bash
@@ -36,7 +35,6 @@ HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
 ```
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Getting Started
@@ -46,7 +44,7 @@ Option #1:
 - Enable Linux
 - Install needed packages
 
-Option #1:
+Option #2:
 - Open Chromebook
 - Enter Developer/Recovery Mode
 - Download and install crouton
