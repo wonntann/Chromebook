@@ -4,7 +4,7 @@ This repo will take you through the installation process for programs and langua
 ### Verify Python Installation
 - Verify Python Installation
 ``` Bash
-~$ python--version
+~$ python --version
 Python 3.9.5
 ```
 ``` Bash
