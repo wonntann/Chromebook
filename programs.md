@@ -4,12 +4,19 @@ This repo will take you through the installation process for programs and langua
 ### Verify Python Installation
 - Verify Python Installation
 ``` Bash
-~$ python --version
+~$ python3 --version
 Python 3.9.5
 ```
 ``` Bash
-~$ sudo apt install python
+~$ sudo apt install python3
 ```
+
+### Install pip
+- [pip offical docs](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+- Enter into the terminal:
+ ``` bash
+ sudo apt-get install python3-pip
+ ```
 
 ### Update pip
 ``` bash
@@ -25,6 +32,7 @@ python3 -m pip install --user --upgrade pip
 ```
  
 ### Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
+
 ### Install [nodejs](curl -sl https://deb.nodesource.com/setup_10.x | sudo -E bash - sudo apt-get instll -y nodejs)
 ### [Firefox](https://support.mozilla.org/en-US/kb/run-firefox-chromeos)
 ``` Bash
