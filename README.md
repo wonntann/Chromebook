@@ -15,7 +15,7 @@
 # How To Read
 - If you would like to jump to sections, locate the **Table of Contents** menu in the upper left of this repo GitHub header and select from the dropdown
 - Using Linux, you can use chroot dualboot or enable Linux on your Chromebook, either way it is personal preference.
-
+- Example code may have **~$** before the command, do not copy that into your terminal.
 
 
 <!--  ABOUT PROJECT  -->
