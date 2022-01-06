@@ -13,7 +13,7 @@
 <div align="center">Notes on working on a Chromebook, install crouton/dual boot xfce or work with enable Linux and work within Chromebook boot</div>
 
 # How To Read
-- If you would like to jump to sections, locate the **Table of Contents** menu in the upper left of this repo GitHub header and select from the dropdown
+- If you would like to jump to sections if viewing within the GitHub website, locate the **Table of Contents** menu in the upper left of this repo header and select from the dropdown
 - Using Linux, you can use chroot dualboot or enable Linux on your Chromebook, either way it is personal preference.
 - Example code may have **~$** before the command, do not copy that into your terminal.
 
@@ -180,7 +180,7 @@ This will be addressing issues on ChromeOS Linux, but you can apply some of them
 
 
 
-## Contributing
+# Contributing
 Thanks for checking out this repo, hopefully it will/has assisted you. If you found any edits or want to contribute, please do, it might assist someone who was struggling with this subject.
 
 Submit an issue or I encourage you to fork this repo and contribute to this project!
@@ -194,17 +194,16 @@ Contributions are what make the open source community such an amazing place to l
 5. Open a Pull Request
 
 
-## License
+# License
 
 Distributed under the MIT License. See [License](https://github.com/wonntann/Chromebook/blob/main/LICENSE) for more information.
 
 
 
-## Contact
+# Contact
 Tanya - [@wonntann](https://twitter.com/wonntann)
 
 Project Link: [https://github.com/wonntann/gitHub](https://github.com/wonntann/gitHub)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
