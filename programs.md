@@ -67,3 +67,11 @@ python3 -m pip install --user --upgrade pip
 ``` bash
 ~$ sudo apt-get install python3-pyqt5
 ```
+
+
+# Troubleshoot
+* Installing VS Code via flatpak creates command errors when accessing the terminal within VS Code. Common error:
+ ``` bash
+ sh: sudo: command not found
+ ```
+  - If working on the same network, use remote extension
