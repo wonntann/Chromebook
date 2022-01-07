@@ -149,7 +149,7 @@ Distributed under the MIT License. See [License](https://github.com/wonntann/Chr
 # Contact
 Tanya - [@wonntann](https://twitter.com/wonntann)
 
-Project Link: [https://github.com/wonntann/gitHub](https://github.com/wonntann/gitHub)
+Project Link: [https://github.com/wonntann/gitHub](https://github.com/wonntann/Chromebook)
 
 
 
