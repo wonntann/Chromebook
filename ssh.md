@@ -19,3 +19,10 @@
     You will be prompted to verify the ECDSA key fingerprint, enter **yes** if it is correct.
     
 3. Once your terminal connects to the host machine, the username and hostname will be in the terminal. You can access all of the files via the terminal and edit the files via Vim, nano or transfer it to the device.
+
+
+# Terminology
+- Host
+- Terminal
+- Vim
+- SSH
