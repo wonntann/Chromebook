@@ -41,6 +41,7 @@ python3 -m pip install --user --upgrade pip
 ```
  
 ## Install IDE: [VS Code](https://code.visualstudio.com/docs/setup/setup-overview) on Mac, Windows, Linux
+- I have found that flatpak does not connect the terminal and found better usage following this guide, [VS Code for Linux](https://code.visualstudio.com/docs/setup/linux)
 -Install through flatpak, search for VS Code by entering the following command into the terminal:
   ``` bash
   flatpak search code
